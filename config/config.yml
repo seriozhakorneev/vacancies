@@ -1,0 +1,6 @@
+authorize_target: "host.docker.internal:50051"
+domain: 'https://career.habr.com'
+
+# ключевое слово по которому
+# будет проводиться поиск вакансий
+keyword: 'Go Developer'

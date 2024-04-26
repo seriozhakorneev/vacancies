@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package authorize_proto;
+option go_package = "/authorize_proto";
+
+service AuthorizationService {
+  rpc GetAuthorizationData(AuthorizationDataRequest) returns (AuthorizationDataResponse);
+}
+
+message AuthorizationDataRequest {}
+
+message AuthorizationDataResponse {
+  string cookies = 1;
+}
